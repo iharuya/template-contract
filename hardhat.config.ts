@@ -23,13 +23,13 @@ const config: HardhatUserConfig = {
       },
     },
     goerli: {
-      url: process.env.GOERLI_RPC_URL,
+      url: process.env.GOERLI_RPC_URL || "",
       accounts: {
         mnemonic: process.env.DEV_MNEMONIC || "",
       },
     },
     mumbai: {
-      url: process.env.MUMBAI_RPC_URL,
+      url: process.env.MUMBAI_RPC_URL || "",
       accounts: {
         mnemonic: process.env.DEV_MNEMONIC || "",
       },
