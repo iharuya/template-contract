@@ -5,8 +5,8 @@
 - Write contracts inside `contracts/`
 - `yarn compile`
 - `yarn test`
-- Edit `scripts/deploy.ts` to deploy contracts
-- `yarn deploy --network [localhost|goerli|etc.]`
+- Add/edit `scripts/` to deploy and deal with contracts
+- `yarn executre scripts/[name] --network [localhost|goerli|etc.]`
 
 ## Configurations
 
@@ -16,10 +16,13 @@ It's strongly recommended the mnemonic is for development use only and have no e
 
 You can configure environment settings by editting `hardhat.config.ts` (see [official hardhat documentation](https://hardhat.org/hardhat-runner/docs/config))
 
-
 Also note that `networksConfig` in `helper.ts` allows you to add some custom settings for each network.
+
+## Reference
+
+- [Hardhat documentation](https://hardhat.org/hardhat-runner/docs/getting-started)
+- [Ethers.js documentation](https://docs.ethers.io/v5/)
 
 ## Todo
 
 - Add test for the sample contract
-- Make use of typechain

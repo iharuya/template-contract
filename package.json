@@ -5,7 +5,7 @@
     "dev": "hardhat node --port 8546",
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "deploy": "hardhat run scripts/deploy.ts",
+    "execute": "hardhat run",
     "typechain": "hardhat typechain",
     "fix": "prettier --write .",
     "clean": "hardhat clean"
