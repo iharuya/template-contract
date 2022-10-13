@@ -1,4 +1,4 @@
-# A template for EVM smart contract development
+# The template of hardhat development environment
 
 ## Workflow
 
